@@ -1,0 +1,97 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(88deg, #160682 30%, #0C0101 100%);
+}
+p{
+    color: aqua;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aquamarine;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(131, 134, 134); 
+}
+.logo {
+    width: 50px;
+}
+.navbar-toggler {
+   background-color: rgb(131, 134, 134); 
+}
+
+.sitebar{
+    color: aqua;
+    background: linear-gradient(270deg, #160682 30%, #0C0101 100%);
+    
+}
+
+.card{
+    background: linear-gradient(270deg, #160682 30%, #0C0101 100%);
+    color: aqua;
+}
+
+.card a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.slid-css{
+    color: aqua; 
+    margin: auto auto;
+}
+.call-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+    
+}
+.footer-text{
+    color: aqua; 
+    margin: auto auto;  
+}
+
+footer, .btn-outline-primary{
+    background: linear-gradient(270deg, #160682 30%, #0C0101 100%); 
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
